@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="main">
@@ -18,16 +19,20 @@
                 <h1>Login</h1>
                 <div class="tf">
                     <label for="user">User</label>
-                    <input type="text" name="user" id="user" placeholder="User">  
+                    <input type="text" id="user" placeholder="User">  
                 </div>       
                 <div class="tf">
-                    <label for="pw">Password</label>
-                    <input type="password" name="pw" id="pw" placeholder="Password">
+                    <label id="inw" for="pw">Password</label>
+                    <input type="password" id="password" placeholder="Password">
+                    <button id="btn" type="button">
+                    <img id="icon"  src="images/eye.png">
+                    </button>
                 </div>
                 <button class="btn">Login</button>
             </div>
         </div>
 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

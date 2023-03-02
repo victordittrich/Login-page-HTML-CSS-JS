@@ -63,6 +63,7 @@ body *{
 }
 
 .tf{
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -147,3 +148,17 @@ color: #f0ffff94;
         width: 80%;
     }
 }
+
+#btn{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
