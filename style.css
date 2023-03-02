@@ -149,6 +149,30 @@ color: #f0ffff94;
     }
 }
 
+@media only screen and (max-width:420px) {
+    .main{
+        flex-direction: column;
+    }
+    .left-login h1{
+        display: none;
+    }
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .img-left{
+        width: 30vh;
+    }
+    .card-login{
+        width: 80%;
+    }
+}
+
 #btn{
     cursor: pointer;
     position: absolute;
