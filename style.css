@@ -125,7 +125,7 @@ color: #f0ffff94;
     }
 }
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:650px) {
     .main{
         flex-direction: column;
     }
@@ -142,7 +142,7 @@ color: #f0ffff94;
     }
 
     .img-left{
-        width: 50vh;
+        width: 40vh;
     }
     .card-login{
         width: 80%;
