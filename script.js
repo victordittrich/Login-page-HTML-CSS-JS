@@ -1,6 +1,9 @@
 const btn = document.querySelector('#btn');
 const input = document.querySelector('#password');
+const input2 = document.querySelector('#user');
 const icon = document.querySelector('#icon');
+const login = document.querySelector('#log');
+
 btn.addEventListener('click',()=> {
     if ( input.type === "password") {
         input.type = "text"
@@ -11,4 +14,10 @@ btn.addEventListener('click',()=> {
     }
 
     
+})
+
+login.addEventListener('click',()=> {
+    
+    input.value="";
+    input2.value="";
 })
