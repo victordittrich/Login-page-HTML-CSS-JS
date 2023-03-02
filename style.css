@@ -128,7 +128,6 @@ color: #f0ffff94;
 @media only screen and (max-width:650px) {
     .main{
         flex-direction: column;
-        justify-content: flex-start;
     }
     .left-login h1{
         display: none;
