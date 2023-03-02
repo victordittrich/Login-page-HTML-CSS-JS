@@ -172,6 +172,29 @@ color: #f0ffff94;
         width: 80%;
     }
 }
+@media only screen and (max-width:280px) {
+    .main{
+        flex-direction: column;
+    }
+    .left-login h1{
+        display: none;
+    }
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .img-left{
+        display: none;
+    }
+    .card-login{
+        width: 80%;
+    }
+}
 
 #btn{
     cursor: pointer;
