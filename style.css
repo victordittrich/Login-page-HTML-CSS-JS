@@ -31,4 +31,40 @@ body{
     justify-content: center;
     align-items: center;
 }
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
 
+.card-login h1{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.tf{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.tf input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 18pt;
+    outline: none;
+    box-sizing: border-box;
+    
+}
